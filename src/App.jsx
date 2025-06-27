@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react";
+import CardFlipApp from "./CardFlipApp";
 
 function App() {
   return (
-    <div style={{ padding: '2rem', textAlign: 'center' }}>
-      <h1>🔥 CardAI Original Is Working</h1>
-      <p>Upload & scan sports cards — coming soon...</p>
+    <div className="p-6">
+      <h1 className="text-2xl font-bold mb-4">CardFlip AI</h1>
+      <CardFlipApp />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
